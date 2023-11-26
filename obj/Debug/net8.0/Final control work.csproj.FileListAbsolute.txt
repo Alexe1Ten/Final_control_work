@@ -1,0 +1,16 @@
+D:\Training\Homework\Final control work\bin\Debug\net8.0\Final control work.exe
+D:\Training\Homework\Final control work\bin\Debug\net8.0\Final control work.deps.json
+D:\Training\Homework\Final control work\bin\Debug\net8.0\Final control work.runtimeconfig.json
+D:\Training\Homework\Final control work\bin\Debug\net8.0\Final control work.dll
+D:\Training\Homework\Final control work\bin\Debug\net8.0\Final control work.pdb
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.csproj.AssemblyReference.cache
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.AssemblyInfoInputs.cache
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.AssemblyInfo.cs
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.csproj.CoreCompileInputs.cache
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.sourcelink.json
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.dll
+D:\Training\Homework\Final control work\obj\Debug\net8.0\refint\Final control work.dll
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.pdb
+D:\Training\Homework\Final control work\obj\Debug\net8.0\Final control work.genruntimeconfig.cache
+D:\Training\Homework\Final control work\obj\Debug\net8.0\ref\Final control work.dll
