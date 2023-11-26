@@ -39,16 +39,28 @@ string[] SortedArray (string[] arr)
 
 void PrintArray (string[] arr)
 {
-    Console.Write("[\"{0}\"]", string.Join("\", \"", arr));
+    if (arr.Length == 0) Console.Write("[]");
+    else Console.Write("[\"{0}\"]", string.Join("\", \"", arr));
 }
 
-
+try
+{
 Console.WriteLine("Сколько будет элементов в массиве?");
 int length = Convert.ToInt32(Console.ReadLine());
+if (length <= 0)
+{
+    Console.WriteLine("Ошибка ввода! Введите целое положительное число.");
+    return;
+}
 
 string[] introductoryArray = EnteringDataIntoAnArray(length);
 
 PrintArray(introductoryArray);
 Console.Write(" -> ");
 PrintArray(SortedArray(introductoryArray));
+}
 
+catch (System.FormatException)
+{
+    Console.WriteLine("Ошибка ввода! Введите целое положительное число.");
+}
