@@ -6,7 +6,7 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string [] EnteringDataIntoAnArray (int lenArr)
+string[] EnteringDataIntoAnArray(int lenArr)
 {
     string[] arrayString = new string[lenArr];
     for (int i = 0; i < lenArr; i++)
@@ -17,7 +17,7 @@ string [] EnteringDataIntoAnArray (int lenArr)
     return arrayString;
 }
 
-string[] SortedArray (string[] arr)
+string[] SortedArray(string[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -37,7 +37,7 @@ string[] SortedArray (string[] arr)
     return sortedArray;
 }
 
-void PrintArray (string[] arr)
+void PrintArray(string[] arr)
 {
     if (arr.Length == 0) Console.Write("[]");
     else Console.Write("[\"{0}\"]", string.Join("\", \"", arr));
@@ -45,19 +45,19 @@ void PrintArray (string[] arr)
 
 try
 {
-Console.WriteLine("Сколько будет элементов в массиве?");
-int length = Convert.ToInt32(Console.ReadLine());
-if (length <= 0)
-{
-    Console.WriteLine("Ошибка ввода! Введите целое положительное число.");
-    return;
-}
+    Console.WriteLine("Сколько будет элементов в массиве?");
+    int length = Convert.ToInt32(Console.ReadLine());
+    if (length <= 0)
+    {
+        Console.WriteLine("Ошибка ввода! Введите целое положительное число.");
+        return;
+    }
 
-string[] introductoryArray = EnteringDataIntoAnArray(length);
+    string[] introductoryArray = EnteringDataIntoAnArray(length);
 
-PrintArray(introductoryArray);
-Console.Write(" -> ");
-PrintArray(SortedArray(introductoryArray));
+    PrintArray(introductoryArray);
+    Console.Write(" -> ");
+    PrintArray(SortedArray(introductoryArray));
 }
 
 catch (System.FormatException)
